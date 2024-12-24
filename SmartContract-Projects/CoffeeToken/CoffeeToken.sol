@@ -34,5 +34,5 @@ contract CoffeeToken is ERC20, AccessControl {
         _spendAllowance(account, _msgSender(), 1 * 10 ** decimals());
         _burn(account, 1 * 10 ** decimals());
         emit coffeePurchased(_msgSender(), account);
-    }
+    } 
 }

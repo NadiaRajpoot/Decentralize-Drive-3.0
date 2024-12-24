@@ -9,7 +9,7 @@ interface IERC20 {
     // Function to return the token's decimal places
     function decimals() external view returns(uint8);
 }
-
+ 
 contract TokenSale {
     uint public tokenPriceInWei = 1 ether;  // Price of one token in Wei (1 token = 1 Ether)
 
