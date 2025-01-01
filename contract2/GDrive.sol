@@ -9,7 +9,8 @@ contract GDrive{
     mapping(address => mapping (address => bool)) previousData;   
     struct Access{
         address user;
-        bool access;
+        bool access; 
+        
     }
 
     function addData(address user, string memory url) external {
